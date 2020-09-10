@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+    font-size: 2rem;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  * {margin: 0;}
+  nav{
+      text-align: center;
+      background-color: #6C54E8;
+      color: white;
+  }
+  .container {
+      height: 400px;
+      width: 100%;
+      background-color: wheat;
+      align-content: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .imagen {
+      height: 200px;
+      width: 400px;
+      background-color: violet;
+      z-index: 2;
+      border: solid 1px black;
+  }
+  .lettersContainer {
+      display: inline-flex;
+      max-width: 100%;
+  }
+  .letters {
+      height: 100px;
+      width: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #B8CBFE;
+      margin: 5px
+  }
